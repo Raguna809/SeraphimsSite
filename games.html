@@ -9,11 +9,26 @@
   </head>
 
   <!-- load the background image and replacement color in the opening tag -->
-  <body style="background-image: url('images/seraphim.jpg');
-               background-color: #dcba98;">
+  <body style="background-image: url('images/bg_alt.png');
+               background-color: #dcba98;
+               background-size: cover;
+               background-repeat: no-repeat;
+               min-height: 100vh;
+               background-position: center;
+               ">
+
+    <video autoplay muted loop id="background">
+      <source src="images/bg_ani.mov" type="video/mp4" height=100% width=auto>
+    </video>
+
     <div class="box">
-      <div class="text-block">
-        <h1 style="text-align:center;">AlphaVirus Games</h1>
+      <div class="block">
+        <p>
+          <img src="images/title.png"
+               width=720px
+               height=auto
+               style="display: block; margin-left: auto; margin-right: auto;">
+        </p>
 
         <a href="index.html" style="color : white;
                                     font-size: 18pt;
@@ -23,13 +38,22 @@
           HOME
         </a>
 
-         <a href="games.html" style="color : white;
+         <a href="contact.html" style="color : white;
                                     font-size: 18pt;
                                     font-family: Arial, sans-serif;
                                     left-padding: 20px;
                                     right-padding: 20px;">
-          GAMES
+          CONTACT
         </a>
+
+        <a href="https://discord.ggBXKSaMV"
+           style="color : white;
+                  font-size: 18pt;
+                  font-family: Arial, sans-serif;
+                  left-padding: 20px;
+                  right-padding: 20px;">
+         DISCORD
+       </a>
 
         <p></p>
 
