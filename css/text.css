@@ -6,7 +6,7 @@
 /* the block of text and other elements to be placed on the screen */
 .block {
   display: block;
-  opacity: 0.7;
+  opacity: 0.8;
   position: absolute;
   top: 20px;
   left: 20px;

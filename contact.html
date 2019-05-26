@@ -10,7 +10,8 @@
 
   <!-- load the background image and replacement color in the opening tag -->
   <body style="background-image: url('images/bg_alt.png');
-               background-color: #dcba98;
+               /* background-color: #dcba98; this is a pale orange color*/
+               background-color: #000000;
                background-size: cover;
                background-repeat: no-repeat;
                min-height: 100vh;
@@ -18,7 +19,7 @@
                ">
 
     <!-- loop a video in the background -->
-    <video autoplay muted loop id="background">
+    <video autoplay muted loop id="background" style="opacity: 1;">
       <source src="images/bg_ani.mov" type="video/mp4">
     </video>
 
@@ -26,23 +27,20 @@
       <div class="block">
         <!-- title image -->
         <div>
-          <img src="images/title.png"
-               width=720px
-               height=auto
-               style="display: block; margin-left: auto; margin-right: auto;">
+          <!-- link to home page -->
+          <a href="index.html" style="color : black;
+                                      opacity: 1;
+                                      left-padding: 20px;
+                                      right-padding: 20px;">
+            <img src="images/title.png"
+                 width=720px
+                 height=auto
+                 style="display: block; margin-left: auto; margin-right: auto;">
+          </a>
         </div>
 
-        <!-- link to home page -->
-        <a href="index.html" style="color : white;
-                                    font-size: 18pt;
-                                    font-family: Arial, sans-serif;
-                                    left-padding: 20px;
-                                    right-padding: 20px;">
-          HOME
-        </a>
-
         <!-- link to contact page -->
-         <a href="contact.html" style="color : white;
+        <a href="contact.html" style="color : white;
                                     font-size: 18pt;
                                     font-family: Arial, sans-serif;
                                     left-padding: 20px;
@@ -52,29 +50,26 @@
 
         <!-- link to discord -->
         <a href="https://discord.gg/BXKSaMV"
-           style="color : white;
-                  font-size: 18pt;
-                  font-family: Arial, sans-serif;
-                  left-padding: 20px;
-                  right-padding: 20px;"
-                  target="_blank">
-         DISCORD
-       </a>
-
-       <!-- link to steam -->
-       <a href="https://store.steampowered.com/app/925880/Seraphims_of_Astraeus"
-          style="color : white;
-                 font-size: 18pt;
-                 font-family: Arial, sans-serif;
+          style="color: black;
+                 opacity: 1;
                  left-padding: 20px;
                  right-padding: 20px;"
                  target="_blank">
-        STEAM
-      </a>
+          <img src="images/discord.png" alt="Discord icon" height=96px>
+        </a>
+
+        <!-- link to steam -->
+        <a href="https://store.steampowered.com/app/925880/Seraphims_of_Astraeus"
+          style="color: black;
+                 opacity: 1;
+                 left-padding: 20px;
+                 right-padding: 20px;"
+                 target="_blank">
+                 <img src="images/steam.png" alt="Steam icon" height=96px>
+        </a>
 
       <p>
-        I'm waiting for Chris to provide his contact information. Once he sends
-        that over, I will put it here.
+        email: seraphimsofastraeus@gmail.com
       </p>
       </div>
     </div>

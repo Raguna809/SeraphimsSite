@@ -10,7 +10,8 @@
 
   <!-- load the background image and replacement color in the opening tag -->
   <body style="background-image: url('images/bg_alt.png');
-               background-color: #dcba98;
+               /* background-color: #dcba98; this is a pale orange color*/
+               background-color: #000000;
                background-size: cover;
                background-repeat: no-repeat;
                min-height: 100vh;
@@ -18,7 +19,7 @@
                ">
 
     <!-- loop a video in the background -->
-    <video autoplay muted loop id="background">
+    <video autoplay muted loop id="background" style="opacity: 1;">
       <source src="images/bg_ani.mov" type="video/mp4">
     </video>
 
@@ -26,23 +27,20 @@
       <div class="block">
         <!-- title image -->
         <div>
-          <img src="images/title.png"
-               width=720px
-               height=auto
-               style="display: block; margin-left: auto; margin-right: auto;">
+          <!-- link to home page -->
+          <a href="index.html" style="color : black;
+                                      opacity: 1;
+                                      left-padding: 20px;
+                                      right-padding: 20px;">
+            <img src="images/title.png"
+                 width=720px
+                 height=auto
+                 style="display: block; margin-left: auto; margin-right: auto;">
+          </a>
         </div>
 
-        <!-- link to home page -->
-        <a href="index.html" style="color : white;
-                                    font-size: 18pt;
-                                    font-family: Arial, sans-serif;
-                                    left-padding: 20px;
-                                    right-padding: 20px;">
-          HOME
-        </a>
-
         <!-- link to contact page -->
-         <a href="contact.html" style="color : white;
+        <a href="contact.html" style="color : white;
                                     font-size: 18pt;
                                     font-family: Arial, sans-serif;
                                     left-padding: 20px;
@@ -52,49 +50,52 @@
 
         <!-- link to discord -->
         <a href="https://discord.gg/BXKSaMV"
-           style="color : white;
-                  font-size: 18pt;
-                  font-family: Arial, sans-serif;
-                  left-padding: 20px;
-                  right-padding: 20px;"
-                  target="_blank">
-         DISCORD
-       </a>
-
-       <!-- link to steam -->
-       <a href="https://store.steampowered.com/app/925880/Seraphims_of_Astraeus"
-          style="color : white;
-                 font-size: 18pt;
-                 font-family: Arial, sans-serif;
+          style="color: black;
+                 opacity: 1;
                  left-padding: 20px;
                  right-padding: 20px;"
                  target="_blank">
-        STEAM
-      </a>
+          <img src="images/discord.png" alt="Discord icon" height=96px>
+        </a>
 
-      <p>
-        <h4>From Steam:</h4>
-        Conjure the power of a Seraphim (class of mecha) in <i>Seraphims of
-        Astraeus</i> to fly through the skies set ablaze by the onslaught of
-        hellfire drawn upon by skyward bound warships. Traverse the land
-        burdened by the crisis of past civilizations at unimaginable speeds,
-        dash past the oncoming crossfire, engaging in heavy artillery
-        mechanized combat, and defeat the vessels of war forged the ones who
-        dare to tarnish the sanctity of an alternate Pangaea.
-      </p>
+        <!-- link to steam -->
+        <a href="https://store.steampowered.com/app/925880/Seraphims_of_Astraeus"
+          style="color: black;
+                 opacity: 1;
+                 left-padding: 20px;
+                 right-padding: 20px;"
+                 target="_blank">
+                 <img src="images/steam.png" alt="Steam icon" height=96px>
+        </a>
 
-      <p>
-        Seraphims of Astraeus is a semi-realistic, part arcade-y, fast pace
-        mecha shooter inspired by the likes of Armored Core, Gundam, and other
-        mecha franchisee. Customize your mechas to your liking with regards to
-        limbs, weapon, and color. Then put your creations to the test in the
-        heat of battle against other players with Steam and LAN supported
-        multiplayer or if cooperative play is more your taste, gather your
-        friends and dive into the prehistoric world of Pangaea. Where the
-        story of conflicts arise between the nations of Astraeus,
-        Nair-Lapierre, and Karmel in a 12 mission episodic-like series.
-      </p>
+        <!-- text introducing game -->
+        <div class="box">
+          <div class="block">
+            <p>
+              Seraphims of Astraeus is a semi-realistic, part arcade-y, fast
+              paced shooter from a new indie developer. With ample room for
+              customization of your mech including limbs, arsenal, and color,
+              there is something for every mecha fan. Test your mechs against
+              other players heat of battle with Steam and LAN supported
+              multiplayer. If cooperative play is what you're looking for,
+              gather your friends for a dive into the prehistoric world of
+              Pangaea.
+
+              <br>
+
+              Harness the power of a Seraphim mech to soar through the skies
+              with grace and power. Traverse lands burdened by past crises and
+              dance through crosfire in a display of speed and agility,
+              defeating the vessels of war forged by those who dare to tarnish
+              the sanctity of an alternate Pangaea. Stories of conflicts arise
+              between the nations of Astraeus, Nair-Lapierre, and Karmel in a 12
+              mission episodic-like series, and it's up to you to pilot your way
+              to victory. Are you up to the task?
+            </p>
+          </div>
+        </div>
       </div>
     </div>
+
   </body>
 </html>
