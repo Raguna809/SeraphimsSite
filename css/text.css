@@ -17,11 +17,24 @@
   padding-right: 20px;
 }
 
-/* Style the navigation bar */
+/* a nav bar */
 .navbar {
   width: 100%;
   background-color: #000000;
   overflow: auto;
+}
+
+/* styling the links within the navbar */
+.navbar a{
+  padding: 20px
+}
+
+/* auto display the bar vertically on screens with fewer than 720 px widths */
+@media screen and (max-width: 720px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
 }
 
 /* Style the video: 100% width and height to cover the entire window */
