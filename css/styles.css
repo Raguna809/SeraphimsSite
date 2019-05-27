@@ -76,6 +76,7 @@ body{
 
 /* the button used display and hide content */
 .collapsible {
+  position: absolute;
   background-color: black;
   color: white;
   font-family: Arial, sans-serif;
@@ -99,6 +100,25 @@ body{
   display: none;
   overflow: hidden;
   background-color: black;
+}
+
+.gallery {
+  position: relative;
+  margin: 20px;
+  border: 5px solid black;
+  width: 480px;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.gallery:hover {
+  border: 3px solid orange;
+}
+
+.gallery img {
+  width: 480px;
+  height: auto;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
