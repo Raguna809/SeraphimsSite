@@ -35,7 +35,7 @@ body{
   background-position: center;
 }
 
-/* Container holding the image and the text */
+/* container for the sections on the page */
 .box {
   position: relative;
 }
@@ -72,6 +72,33 @@ body{
     float: none;
     display: block;
   }
+}
+
+/* the button used display and hide content */
+.collapsible {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: middle;
+  outline: none;
+  font-size: 24px;
+}
+
+/* change the background color of the collapsible when hovered over or active */
+.active, .collapsible:hover {
+  background-color: orange;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: black;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
