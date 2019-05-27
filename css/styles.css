@@ -1,13 +1,27 @@
+/* style the text paragraphs */
 p{
   color: white;
   font-family: Arial, sans-serif;
 }
 
+/* style all links and references */
 a{
   color: white;
   font-family: Arial, sans-serif;
   left-padding: 20px;
   right-padding: 20px;
+  text-decoration: none;
+}
+
+/* change the color of text when hovered over */
+a:hover {
+  color: orange;
+}
+
+/* style all blockquotes to match the page */
+blockquote{
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
 /* Container holding the image and the text */
