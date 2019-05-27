@@ -24,6 +24,17 @@ blockquote{
   font-family: Arial, sans-serif;
 }
 
+/* load the background image and replacement color*/
+body{
+  background-image: url('images/bg_alt.png');
+  /* background-color: #dcba98; this is a pale orange color*/
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-position: center;
+}
+
 /* Container holding the image and the text */
 .box {
   position: relative;
