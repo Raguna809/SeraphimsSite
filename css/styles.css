@@ -1,3 +1,15 @@
+p{
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+a{
+  color: white;
+  font-family: Arial, sans-serif;
+  left-padding: 20px;
+  right-padding: 20px;
+}
+
 /* Container holding the image and the text */
 .box {
   position: relative;
@@ -7,7 +19,7 @@
 .block {
   display: block;
   opacity: 0.8;
-  position: absolute;
+  position: relative;
   top: 20px;
   left: 20px;
   right: 20px;
