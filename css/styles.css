@@ -105,11 +105,12 @@ body{
 .gallery {
   position: relative;
   margin: 20px;
-  border: 5px solid black;
+  border: 5px solid white;
   width: 480px;
   height: auto;
   padding-left: 20px;
   padding-right: 20px;
+  float: left;
 }
 
 .gallery:hover {
@@ -117,6 +118,11 @@ body{
 }
 
 .gallery img {
+  width: 480px;
+  height: auto;
+}
+
+.gallery video {
   width: 480px;
   height: auto;
 }
