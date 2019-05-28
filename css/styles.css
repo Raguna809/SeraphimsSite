@@ -96,7 +96,7 @@ body{
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  padding: 0 18px;
+  padding-top: 70px;
   display: none;
   overflow: hidden;
   background-color: black;
